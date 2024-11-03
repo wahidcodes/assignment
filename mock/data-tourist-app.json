@@ -1,0 +1,170 @@
+{
+    "header" : {
+      "brandName": "My Brand",
+      "brandLogo": "/static/touristApp/images/logo/logo.png",
+      "navmenu": [
+        {
+          "label": "Home",
+          "desc": "Go to homepage",
+          "url": "/home",
+          "children": [
+            {
+              "label": "Home",
+              "desc": "Main Page",
+              "url": "/home"
+            },
+            {
+              "label": "About",
+              "desc": "Learn more about us",
+              "url": "/about"
+            },
+            {
+              "label": "Services",
+              "desc": "What we offer",
+              "url": "/services"
+            },
+            {
+                "label": "Blog",
+                "desc": "Our blogs",
+                "url": "/blog"
+            },
+            {
+                "label": "Contact",
+                "desc": "Contact us",
+                "url": "/contact"
+            }
+          ]
+        }
+      ],
+      "cta": {
+        "label": "Book a tour",
+        "url": "/consult",
+        "desc": "Reach out to us for inquiries"
+      }
+    
+    },
+    "pages" : {
+        "home": {
+            "sections": [
+              {
+                "name": "Hero",
+                "id": "sec_hero_123456", 
+                "type": "hero",
+                "heading": "Welcome to My Brand",
+                "caption": "Best place to find and explore that all you need",
+                "description": "Find Best Place, Restaurant, Hotel, Real State and many more think in just One click",
+                "hero_image": "/static/touristApp/images/hero/hero.jpg",
+                "cta": {
+                    "label": "Search",
+                    "url": "/search",
+                    "desc": "Search for traveling and trips"
+                  },            
+                "imageUrl": "/static/images/welcome-hero/banner.jpg"
+              },
+              {
+                "name": "Working",
+                "id": "sec_services_987654", 
+                "type": "general",
+                "heading": "How It Works",
+                "caption": "Learn More about how our website works",
+                "description": "To make effecient usage of this website, we recommend you to proceed through these steps for nice usage experience.",
+                "features" : [
+                    {
+                        "id" : "01",
+                        "iconClass" : "fa-solid fa-lightbulb",
+                        "heading" : "Choose what to do",
+                        "description" : "Lorem ipsum dolor sit amet, consecte adipisicing elit, sed do eiusmod tempor incididunt ut laboremagna aliqua."
+                    },
+                    {
+                        "id" : "02",
+                        "iconClass" : "fa-solid fa-binoculars",
+                        "heading" : "Find what you want",
+                        "description" : "Lorem ipsum dolor sit amet, consecte adipisicing elit, sed do eiusmod tempor incididunt ut laboremagna aliqua."
+                    },
+                    {
+                        "id" : "03",
+                        "iconClass" : "fa-solid fa-map-location-dot",
+                        "heading" : "Explore amazing place",
+                        "description" : "Lorem ipsum dolor sit amet, consecte adipisicing elit, sed do eiusmod tempor incididunt ut laboremagna aliqua."
+                    }
+                ]
+              },
+              {
+                "name": "Blogs",
+                "id": "sec_blogs_223344", 
+                "type": "general",
+                "heading": "Articles",
+                "caption": "News and Articles",
+                "description": "Always upto date with our latest News and Articles",
+                "image_url" : "/static/touristApp/images/blog/",
+                "cta": {
+                  "label": "View",
+                  "url": "/blog/1",
+                  "desc": "View our blog"
+                },
+                "features" : [
+                    {
+                        "img" : "blog01.jpg",
+                        "heading" : "How to find your Desired Place more quickly",
+                        "description" : "Lorem ipsum dolor sit amet, consectetur de adipisicing elit, sed do eiusmod tempore incididunt ut labore et dolore magna."
+                    },
+                    {
+                        "img" : "blog02.jpg",
+                        "heading" : "How to find your Desired Place more quickly",
+                        "description" : "Lorem ipsum dolor sit amet, consectetur de adipisicing elit, sed do eiusmod tempore incididunt ut labore et dolore magna."
+                    },
+                    {
+                        "img" : "blog03.jpg",
+                        "heading" : "How to find your Desired Place more quickly",
+                        "description" : "Lorem ipsum dolor sit amet, consectetur de adipisicing elit, sed do eiusmod tempore incididunt ut labore et dolore magna."
+                    }
+                ]
+              }
+            ]
+        }
+    },
+    "footer" : {
+        "brandLogo":"/static/touristApp/images/logo/logo.png",
+        "newsletter" : {
+            "heading" : "Sign up to our newsletter",
+            "cta": {
+                "label": "Sign up",
+                "url": "/sign-up",
+                "desc": "Sign up to get our latest updates"
+            }
+        },
+        "sitemap": [
+            {
+              "label": "Privacy Policy",
+              "url": "/privacy"
+            },
+            {
+              "label": "Terms of Service",
+              "url": "/terms"
+            }
+          ],
+          "copyright" : "Copyright @2024 Mohamed Wahid",
+          "socialmedia": [
+            {
+              "platform": "Facebook",
+              "iconClass" : "fa-brands fa-facebook",
+              "url": "https://facebook.com/mybrand"
+            },
+            {
+              "platform": "Twitter",
+              "iconClass" : "fa-brands fa-twitter",
+              "url": "https://twitter.com/mybrand"
+            },
+            {
+              "platform": "LinkedIn",
+              "iconClass" : "fa-brands fa-linkedin",
+              "url": "https://linkedin.com/company/mybrand"
+            },
+            {
+              "platform": "Instagram",
+              "iconClass" : "fa-brands fa-instagram",
+              "url": "https://instagram.com/mybrand"
+            }
+          ]
+    }
+}

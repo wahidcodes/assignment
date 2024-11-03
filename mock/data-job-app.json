@@ -1,0 +1,176 @@
+{
+  "staticLink" : "/static/jobApp/images/",
+  "header" : {
+    "brandName": "My Brand",
+    "brandLogo": "/static/jobApp/images/logo/logo.svg",
+    "navmenu": [
+      {
+        "label": "Home",
+        "desc": "Go to homepage",
+        "url": "/home",
+        "children": [
+          {
+            "label": "Home",
+            "desc": "Main Page",
+            "url": "/home"
+          },
+          {
+            "label": "About",
+            "desc": "Learn more about us",
+            "url": "/about"
+          },
+          {
+            "label": "Services",
+            "desc": "What we offer",
+            "url": "/services"
+          },
+          {
+              "label": "Blog",
+              "desc": "Our blogs",
+              "url": "/blog"
+          },
+          {
+              "label": "Contact",
+              "desc": "Contact us",
+              "url": "/contact"
+          }
+        ]
+      }
+    ],
+    "cta": {
+      "label": "Book a tour",
+      "url": "/consult",
+      "desc": "Reach out to us for inquiries"
+    }
+  
+  },
+  "pages" : {
+      "home": {
+          "sections": [
+            {
+              "name": "Hero",
+              "id": "sec_hero_123456", 
+              "type": "hero",
+              "heading": "Welcome to My Brand",
+              "caption": "Discover and Recruit Top Talent Effortlessly with Joblet!",
+              "description": "Unlock your potential with quality job & earn from world leading brands.",
+              "hero_image": "/static/jobApp/images/hero/hero.jpg",
+              "cta": {
+                  "label": "Search",
+                  "url": "/search",
+                  "desc": "Search for traveling and trips"
+                }         
+            },
+            {
+              "name": "Working",
+              "id": "sec_services_987654", 
+              "type": "general",
+              "heading": "How It Works",
+              "caption": "Learn More about how our website works",
+              "description": "To make effecient usage of this website, we recommend you to proceed through these steps for nice usage experience.",
+              "features" : [
+                  {
+                      "id" : "01",
+                      "iconClass" : "fa-solid fa-briefcase",
+                      "heading" : "Choose what job you want",
+                      "description" : "Lorem ipsum dolor sit amet, consecte adipisicing elit, sed do eiusmod tempor incididunt ut laboremagna aliqua."
+                  },
+                  {
+                      "id" : "02",
+                      "iconClass" : "fa-solid fa-rocket",
+                      "heading" : "Apply in 3 steps",
+                      "description" : "Lorem ipsum dolor sit amet, consecte adipisicing elit, sed do eiusmod tempor incididunt ut laboremagna aliqua."
+                  },
+                  {
+                      "id" : "03",
+                      "iconClass" : "fa-solid fa-phone",
+                      "heading" : "Speak directly with HR regarding your application",
+                      "description" : "Lorem ipsum dolor sit amet, consecte adipisicing elit, sed do eiusmod tempor incididunt ut laboremagna aliqua."
+                  }
+              ]
+            },
+            {
+              "name": "Blogs",
+              "id": "sec_blogs_223344", 
+              "type": "general",
+              "heading": "Articles",
+              "caption": "News and Articles",
+              "description": "Always upto date with our latest News and Articles",
+              "image_url" : "/static/jobApp/images/blog/",
+              "cta": {
+                "label": "View",
+                "url": "/blog/1",
+                "desc": "View our blog"
+              },
+              "features" : [
+                  {
+                      "img" : "blog01.jpg",
+                      "heading" : "Four Ways to Keep Your Workout Routine Fresh",
+                      "description" : "Lorem ipsum dolor sit amet, consectetur de adipisicing elit, sed do eiusmod tempore incididunt ut labore et dolore magna.",
+                      "comments" : "5",
+                      "time" : "May 20, 2024"
+                  },
+                  {
+                      "img" : "blog02.jpg",
+                      "heading" : "What are the benefits of using job listing",
+                      "description" : "Lorem ipsum dolor sit amet, consectetur de adipisicing elit, sed do eiusmod tempore incididunt ut labore et dolore magna.",
+                      "comments" : "5",
+                      "time" : "May 20, 2024"
+                  },
+                  {
+                      "img" : "blog03.jpg",
+                      "heading" : "CareerPathways: Navigating the Professional Landscape",
+                        "description" : "Lorem ipsum dolor sit amet, consectetur de adipisicing elit, sed do eiusmod tempore incididunt ut labore et dolore magna.",
+                        "comments" : "5",
+                        "time" : "May 20, 2024"
+                  }
+              ]
+            }
+          ]
+      }
+  },
+  "footer" : {
+      "brandLogo":"/static/jobApp/images/logo/logo.svg",
+      "newsletter" : {
+          "heading" : "Sign up to our newsletter",
+          "cta": {
+              "label": "Sign up",
+              "url": "/sign-up",
+              "desc": "Sign up to get our latest updates"
+          }
+      },
+      "sitemap": [
+          {
+            "label": "Privacy Policy",
+            "url": "/privacy"
+          },
+          {
+            "label": "Terms of Service",
+            "url": "/terms"
+          }
+        ],
+        "copyright" : "Copyright @2024 Mohamed Wahid",
+        "socialmedia": [
+          {
+            "platform": "Facebook",
+            "iconClass" : "fa-brands fa-facebook",
+            "url": "https://facebook.com/mybrand"
+          },
+          {
+            "platform": "Twitter",
+            "iconClass" : "fa-brands fa-twitter",
+            "url": "https://twitter.com/mybrand"
+          },
+          {
+            "platform": "LinkedIn",
+            "iconClass" : "fa-brands fa-linkedin",
+            "url": "https://linkedin.com/company/mybrand"
+          },
+          {
+            "platform": "Instagram",
+            "iconClass" : "fa-brands fa-instagram",
+            "url": "https://instagram.com/mybrand"
+          }
+        ]
+  }
+}

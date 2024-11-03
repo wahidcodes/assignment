@@ -1,0 +1,176 @@
+{
+  "staticLink" : "/static/traderApp/images/",
+  "header" : {
+    "brandName": "My Brand",
+    "brandLogo": "/static/traderApp/images/logo/logo.svg",
+    "navmenu": [
+      {
+        "label": "Home",
+        "desc": "Go to homepage",
+        "url": "/home",
+        "children": [
+          {
+            "label": "Home",
+            "desc": "Main Page",
+            "url": "/home"
+          },
+          {
+            "label": "About",
+            "desc": "Learn more about us",
+            "url": "/about"
+          },
+          {
+            "label": "Services",
+            "desc": "What we offer",
+            "url": "/services"
+          },
+          {
+              "label": "Blog",
+              "desc": "Our blogs",
+              "url": "/blog"
+          },
+          {
+              "label": "Contact",
+              "desc": "Contact us",
+              "url": "/contact"
+          }
+        ]
+      }
+    ],
+    "cta": {
+      "label": "Book a tour",
+      "url": "/consult",
+      "desc": "Reach out to us for inquiries"
+    }
+  
+  },
+  "pages" : {
+      "home": {
+          "sections": [
+            {
+              "name": "Hero",
+              "id": "sec_hero_123456", 
+              "type": "hero",
+              "heading": "Welcome to My Brand",
+              "caption": "Unlock your potential in trading with Mohamed Wahid",
+              "description": "Expert guidance and proven strategies to navigate financial markets successfully",
+              "hero_image": "/static/traderApp/images/hero/hero.jpg",
+              "cta": {
+                "label": "Learn More",
+                "url": "/learn-more",
+                "desc": "Learn More About Our Strategies"
+              }
+            },
+            {
+              "name": "Working",
+              "id": "sec_services_987654", 
+              "type": "general",
+              "heading": "Our Services",
+              "caption": "What We Do",
+              "description": "We provide a range of services to cater to your business needs.",
+              "features" : [
+                  {
+                      "id" : "01",
+                      "iconClass" : "fa-solid fa-briefcase",
+                      "heading" : "Customized Portfolio Management",
+                      "description" : "Our expert team will work closely with you to create a tailored investment strategy designed to achieve your financial goals while minimizing risk and managing your portfolio."
+                  },
+                  {
+                      "id" : "02",
+                      "iconClass" : "fa-solid fa-rocket",
+                      "heading" : "Algorithmic Trading Solutions",
+                      "description" : "Our algorithms leverage advanced technology to analyze market data in real-time, enabling us to identify lucrative trading opportunities and execute trades with precision."
+                  },
+                  {
+                      "id" : "03",
+                      "iconClass" : "fa-solid fa-phone",
+                      "heading" : "24/7 Market Analysis and Support",
+                      "description" : "Our team of dedicated analysts monitors global markets around the clock, providing you with timely insights, recommendations, and support whenever you need it."
+                }
+              ]
+            },
+            {
+              "name": "Blogs",
+              "id": "sec_blogs_223344", 
+              "type": "general",
+              "heading": "Articles",
+              "caption": "News and Articles",
+              "description": "Always upto date with our latest News and Articles",
+              "image_url" : "/static/traderApp/images/blog/",
+              "cta": {
+                "label": "View",
+                "url": "/blog/1",
+                "desc": "View our blog"
+              },
+              "features" : [
+                  {
+                      "img" : "blog01.jpg",
+                      "heading" : "Technical Analysis Insights",
+                      "description" : "Demystifying Technical Analysis: A Beginner's Guide to Chart Patterns and Indicators",
+                      "comments" : "5",
+                      "time" : "May 20, 2024"
+                  },
+                  {
+                      "img" : "blog02.jpg",
+                      "heading" : "Market Trends and Analysis",
+                      "description" : "Mastering Market Volatility: Strategies for Thriving in Turbulent Times",
+                      "comments" : "5",
+                      "time" : "May 20, 2024"
+                  },
+                  {
+                      "img" : "blog03.jpg",
+                      "heading" : "Risk Management Strategies",
+                      "description" : "The Art of Risk Management: Safeguarding Your Investments in a Volatile Market",
+                      "comments" : "5",
+                      "time" : "May 20, 2024"
+                  }
+              ]
+            }
+          ]
+      }
+  },
+  "footer" : {
+      "brandLogo":"/static/traderApp/images/logo/logo.svg",
+      "newsletter" : {
+          "heading" : "Sign up to our newsletter",
+          "cta": {
+              "label": "Sign up",
+              "url": "/sign-up",
+              "desc": "Sign up to get our latest updates"
+          }
+      },
+      "sitemap": [
+          {
+            "label": "Privacy Policy",
+            "url": "/privacy"
+          },
+          {
+            "label": "Terms of Service",
+            "url": "/terms"
+          }
+        ],
+        "copyright" : "Copyright @2024 Mohamed Wahid",
+        "socialmedia": [
+          {
+            "platform": "Facebook",
+            "iconClass" : "fa-brands fa-facebook",
+            "url": "https://facebook.com/mybrand"
+          },
+          {
+            "platform": "Twitter",
+            "iconClass" : "fa-brands fa-twitter",
+            "url": "https://twitter.com/mybrand"
+          },
+          {
+            "platform": "LinkedIn",
+            "iconClass" : "fa-brands fa-linkedin",
+            "url": "https://linkedin.com/company/mybrand"
+          },
+          {
+            "platform": "Instagram",
+            "iconClass" : "fa-brands fa-instagram",
+            "url": "https://instagram.com/mybrand"
+          }
+        ]
+  }
+}
